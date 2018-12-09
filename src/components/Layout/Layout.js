@@ -5,7 +5,7 @@ import Toolbar from '../Navigation/Toolbar/Toolbar';
 
 const layout = (props) => (
     <Auxilliary>
-        <Toolbar/>
+        <Toolbar />
         <main className={classes.Content}>
             {props.children}
         </main>

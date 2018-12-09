@@ -13,7 +13,8 @@
     z-index: 90;
 }
 
-.Tolbar nav {
+.Toolbar nav {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    
 }
