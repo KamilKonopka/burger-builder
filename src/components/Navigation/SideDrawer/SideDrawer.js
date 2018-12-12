@@ -8,6 +8,7 @@ import Auxilliary from '../../../hoc/Auxilliary';
 const sideDrawer = (props) => {
 
     let attachedClasses = [classes.SideDrawer, classes.Close];
+    
     if (props.open) {
 attachedClasses = [classes.SideDrawer, classes.Open]
     }
